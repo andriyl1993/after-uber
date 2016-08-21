@@ -113,6 +113,6 @@ STATICFILES_DIRS = get_static_dir(INSTALLED_APPS)
 #Uber info
 CLIENT_ID = "v6segMoIpIuOPVZ8CPtZTqwn6QVK­1zV"
 CLIENT_SECRET = "g70zXI­qQdyb2jDdEE3m5u1clhl0a6Tf_LtbfzIw"
-SERVER_TOKEN = "rXFtyR­_8FnRpknNVFkDlkb1Psi_B­bdVa2mD_Pf"
+SERVER_TOKEN = "rXFtyR-_8FnRpknNVFkDlkb1Psi_B-bdVa2mD_Pf"
 
 GOOGLE_KEY = "AIzaSyDLhGvgs-y399c-VD0sUI3HajZAdt8uhFM"
