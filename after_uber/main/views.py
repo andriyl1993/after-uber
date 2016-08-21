@@ -63,7 +63,7 @@ def response_data(data):
 		for price in data.get('prices'):
 			response["result"].append({
 				"display_name": price.get('display_name') + "After",
-				"price": "{0} - {1}".format(int(price.get('low_estimate')) * 0.8, int(price.get('high_estimate')) * 0.8)
+				"price": "{0} - {1} {2}".format(int(price.get('low_estimate')) * 0.8, int(price.get('high_estimate')) * 0.8, price.get('currency_code'))
 			})
 	else:
 		response["status"] = "error"
